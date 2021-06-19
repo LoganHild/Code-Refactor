@@ -6,4 +6,4 @@ https://loganhild.github.io/Horiseon-Refactor/
 😄
 
 
-![Horiseon Deployed](assets/images/screenshot(19).png)
+![Horiseon Deployed](/assets/images/screenshot(19).png)

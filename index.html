@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Horiseon Business Management</title><!--changed the title to be more specific-->
+</head>
+<!--changed relative pathing for the CSS link and all the images. 
+My CSS wasn't working after I was troubleshooting the page not loading
+I think I got it now-->
+<body> <!--added some spacing between containers to help my eyes separate what I was doing-->
+
+    <header> <!--changed from div to header for semantic tag-->
+        <h1>Hori<span class="seo">seo</span>n</h1> 
+        <nav> <!--changed from div to nav semantic tag-->
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+
+    <!--This was the only option I could find to add an alt attribute to a background image in CSS-->
+    <figure class="hero" title="Office Meeting/Brainstorming"></figure><!--changed to figure semantic-->
+
+    <main class="content"> <!--changed to the main semantic tag-->
+        <section id="search-engine-optimization" class="onlineApplication"> <!-- added id to tag to make link work also changed to section semantic tag-->
+            <img src="images/search-engine-optimization.jpg" alt="search engine optimization illustration on notebook" class="float-left" /><!--added alt attribute-->
+            <h2>Search Engine Optimization</h2> 
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+        </section> <!--changed section class names-->
+        <section id="online-reputation-management"  class="onlineApplication"> <!--changed to section semantic tag-->
+            <img src="images/online-reputation-management.jpg" alt="laptop with reputation growth graph" class="float-right" /><!--added alt attribute-->
+            <h2>Online Reputation Management</h2>
+            <p>
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+            </p>
+        </section>
+        <section id="social-media-marketing"  class="onlineApplication"> <!--changed to section semantic tag-->
+            <img src="images/social-media-marketing.jpg" alt="social media terms and graphics on table for marketing" class="float-left" /><!--added alt attribute-->
+            <h2>Social Media Marketing</h2>
+            <p>
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+            </p>
+        </section>
+    </main>
+
+    <aside class="benefits"> <!--changed to the aside semantic tag-->
+        <article class="brand"><!--changed all these to article semantic tags. Maybe they should be section? Or just left as div I'm not sure-->
+            <h3>Lead Generation</h3>
+            <img src="images/lead-generation.png" alt="graphic of lead generation bringing in money"/><!--added alt attribute-->
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+            </p>
+        </article>
+        <article class="brand"> <!--also changed class names to brand, .benefit was too close to .benefits-->
+            <h3>Brand Awareness</h3>
+            <img src="images/brand-awareness.png" alt="graphic of lightbulb wearing a suit describing brand awareness" /><!--added alt attribute-->
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+            </p>
+        </article>
+        <article class="brand">
+            <h3>Cost Management</h3>
+            <img src="images/cost-management.png" alt="graphic of a cog and dollar signs showing how to decrease costs through business management" /><!--added alt attribute-->
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+            </p>
+        </article>
+    </aside>
+
+    <footer> <!--changed to footer semantic tag-->
+        <h4>Made with ❤️️ by Horiseon</h4><!--changed to h4 from h2 because it was the only one that wasn't in order-->
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
+</body>
+
+</html>

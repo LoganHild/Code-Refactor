@@ -1,3 +1,5 @@
 # Code-Refactor
-Main focus of this project was to work on using some semantic tags, commenting for each changes correctly, and keeping the CSS in place while doing so. 
+Main focus of this project was to work with some existing code and refactor it. It was working on making some semantic tags, simplifying repetitive CSS, and adding comments to explain those changes. 
 
+Link to Deployed webpage.
+https://loganhild.github.io/Horiseon-Refactor/

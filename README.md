@@ -1,5 +1,7 @@
-# Code-Refactor
-Main focus of this project was to work with some existing code and refactor it. It was working on making some semantic tags, simplifying repetitive CSS, getting navigation links to work correctly, and adding comments to explain those changes.
+# Horiseon Refactor
+
+## Description
+Main focus of this project was to refactor the code for the Horiseon Social Solutions website for better accessibility. Semantic tags and alternate attributes were added in order to increase the accessibility of the web page. The links in the navigation bar were also altered to take users to the correct portion of the page. The title was changed to be more concise and descriptive as well as optimizing the position in search engines. 
 
 ## Link to Deployed webpage.
 https://loganhild.github.io/Horiseon-Refactor/

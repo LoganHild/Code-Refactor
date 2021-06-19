@@ -5,3 +5,4 @@ Main focus of this project was to work with some existing code and refactor it. 
 https://loganhild.github.io/Horiseon-Refactor/
 😄
 
+![portfolio demo](./Assets/02-advanced-css-homework-demo.gif
